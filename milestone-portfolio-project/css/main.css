@@ -1,0 +1,241 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Karla', sans-serif;
+  color: #494850;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../../images-icons/floral-design.jpg');
+    background-size: cover;
+    display: block;
+}
+
+header h1 {
+    padding-top: 314px;
+    font-family: 'Aclonica', sans-serif;
+    color: #978897;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+}
+
+header h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 34px;
+    color: #494850;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #494850;
+    padding-left: 80px;
+}
+
+/***** SKILLS *****/
+
+.bigicon {
+  font-size: 65px;
+  margin-bottom: 23px;
+  color: #494850;
+}
+
+#skills {
+  background-color: #fef6e9;
+  text-align: center;
+  height: 555px;
+}
+
+#skills .full-width {
+    padding: 115px 0;
+}
+
+#skills h3 {
+    font-size: 22px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#skills p {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 955px;
+}
+
+#portfolio h2 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px;
+    color: #8f811d;
+    padding: 67px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#portfolio img {
+    float: left;
+    margin: 20px;
+    width: 88%;
+    border: 2px solid #978897;
+    border-radius: 14px;
+}
+
+#portfolio h3 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    text-transform: lowercase;
+    margin-bottom: 8px;
+    padding-top: 11px;
+    padding-left: 25px;
+}
+
+#portfolio h4 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+    color: #8f811d;
+    text-transform: lowercase;
+    margin-top: 0px;
+    padding-left: 25px;
+}
+
+#portfolio p {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    clear: both;
+    height: 785px;
+    background-color: #f5ddd2;
+}
+
+#about h2 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px;
+    color: #8f811d;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about h3 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+}
+
+#about img {
+    float: left;
+    margin: 20px;
+    width: 68%;
+    padding-left: 46px;
+}
+
+#about p {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    height: 500px;
+    background: url('../../images-icons/floral-design.jpg');
+    background-size: cover;
+    display: block;
+}
+
+#contact h2 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px;
+    color: #8f811d;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact #email-header {
+    font-size: 29px;
+    line-height: 44px;
+    text-align: center;
+}
+
+#contact #socialmedia-header {
+    font-size: 29px;
+    line-height: 44px;
+    text-align: center;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #8f811d;
+    font-size: 24px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+.smallicon {
+    font-size: 45px;
+    text-align: center;
+}
+
+.myemail {
+    padding-left: 118px;
+}
+
+.socialmedia {
+    padding-left: 98px;
+}
